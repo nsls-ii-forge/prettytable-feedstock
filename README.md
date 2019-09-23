@@ -80,7 +80,4 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@anguslees](https://github.com/anguslees/)
-* [@licode](https://github.com/licode/)
-* [@pmlandwehr](https://github.com/pmlandwehr/)
 
