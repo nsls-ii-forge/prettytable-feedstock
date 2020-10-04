@@ -1,7 +1,6 @@
 {% set name = "prettytable" %}
-{% set version = "0.7.2" %}
-{% set hash_type = "sha256" %}
-{% set hash = "2d5460dc9db74a32bcc8f9f67de68b2c4f4d2f01fa3bd518764c69156d9cacd9" %}
+{% set version = "1.0.0" %}
+{% set hash = "98a3b74b1980e6a9392498e3a2a5406f6bd836f412843c2be23d9c88671747ac" %}
 {% set build = 0 %}
 
 package:
@@ -10,12 +9,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  {{ hash_type}}: {{ hash }}
+  sha256: {{ hash }}
 
 build:
   noarch: python
   number: {{ build }}
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
