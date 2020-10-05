@@ -3,9 +3,9 @@ About prettytable
 
 Home: http://code.google.com/p/prettytable
 
-Package license: BSD 3-Clause
+Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
 
