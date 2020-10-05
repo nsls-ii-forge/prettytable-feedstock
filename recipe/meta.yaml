@@ -36,3 +36,4 @@ about:
   license: BSD-3-Clause
   license_family: BSD
   summary: A simple Python library for easily displaying tabular data in a visually appealing ASCII table format
+  dev_url: https://github.com/jazzband/prettytable
